@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+
 <meta charset="UTF-8">
+<title>Почему люди паникуют</title>
+
 <link rel="stylesheet" href="/css/style.css">
-<title>Мой первый пост</title>
+
 </head>
 
 <body>
 
-<h1>Мой блог</h1>
-
+<header>
+<h1><a href="/">Moon Ruh</a></h1>
 <hr>
+</header>
 
-<h1>Привет!</h1>
-<p>Это мой первый блог 😎</p>
+<main>
+<h1>Мини-эксперимент</h1>
+<p><button onclick="panic()">НАЖМИ</button></p>
+<p id="out"></p>
+<script>
+function panic(){
+  document.getElementById("out").innerText =
+    "Толпа начала паниковать!";
+}
+</script>
+</main>
 
+<footer>
+<hr>
+<p>© мой независимый интернет</p>
+</footer>
 
 </body>
 </html>
