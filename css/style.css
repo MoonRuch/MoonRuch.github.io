@@ -1,0 +1,42 @@
+body {
+  max-width: 720px;
+  margin: auto;
+  font-family: Georgia, serif;
+  line-height: 1.7;
+  padding: 30px;
+  background: #fafafa;
+  color: #222;
+}
+
+h1,h2,h3 {
+  font-weight: normal;
+}
+
+a {
+  color: #3366cc;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+@media (prefers-color-scheme: dark) {
+
+body {
+  background: #111;
+  color: #eee;
+}
+
+a {
+  color: #7aa2ff;
+}
+
+header a {
+  color: white;
+}
+
+}
