@@ -1,16 +1,9 @@
 ---
-title: Почему люди паникуют
+title: Первый эксперимент
 ---
 
-# Мини-эксперимент
+# Это уже не просто блог
 
-<button onclick="panic()">НАЖМИ</button>
-
-<p id="out"></p>
-
-<script>
-function panic(){
-  document.getElementById("out").innerText =
-    "Толпа начала паниковать!";
-}
-</script>
+<button onclick="alert('hello indie web 👋')">
+нажми меня
+</button>
